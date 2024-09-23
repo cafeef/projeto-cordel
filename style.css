@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+
+:root {
+    --fonte-poesia: 'Sriracha';
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-family: 'Passion One';
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-size: 10vw;
+}
+
+header p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+}
+
+header p a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header p a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte-poesia);
+    font-size: 3.5vw;
+}
+
+section p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(85, 85, 85);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem p {
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+    background-color: rgba(0, 0, 0, 0.50);
+    width: fit-content;
+}
+
+#estrofe-joaninha {
+    background-image: url(imagens/background001.jpg);
+}
+
+#estrofe-cartas {
+    background-image: url(imagens/background002.jpg);
+}
+
+footer {
+    background-color: black;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    color: white;
+}
+
+footer p a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
